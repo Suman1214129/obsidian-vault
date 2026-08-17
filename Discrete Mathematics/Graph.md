@@ -54,6 +54,10 @@ A **Regular graph** is a simple graph in which each vertices have same number of
 ***Cycle graph*** is simple graph which makes a cycle.
 *Number of edge = n*
 
+
+#### Hypercube Graph Q(n):
+**Vertices (V):** Set of all n-length binary strings.
+Edge
 <img src="../Images/Pasted%20image%2020260812182940.png" width="449" alt="">
 
 <img src="../Images/Pasted%20image%2020260812183236.png" width="449" alt="">
