@@ -109,7 +109,7 @@ If there is tree of *n vertices* then it will have **(n-1) Edges.**
 #### Planer Graph:
 A graph is a planer graph if there is some way to draw it in 2-D plane without any of the *edges crossing.*
 
-Non planer graphs: K3, k5
+Non planer graphs: K(3,3), k5
 
 **Faces** in planer graphs are which are surrounded by edges with one outer face.
 
@@ -179,3 +179,5 @@ For any simple graph, *X'(G) = d(G)* or *d(G) + 1.*
 
 #### Graph realization problem: 
 <img src="../Pasted%20image%2020260817170836.png" width="519" alt="">
+
+havel hakim algorithm for simple graph
