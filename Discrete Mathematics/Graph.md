@@ -178,3 +178,4 @@ For any simple graph, *X'(G) = d(G)* or *d(G) + 1.*
 	In general X'(G) >= d(G), since all edges on a max degree vertex must have different color
 
 
+#### Graph realization problem: 
