@@ -1,6 +1,6 @@
 Some dotes (nodes) and lines (edges) connecting those nodes.
 
-**Why we study graph (dots and lines)?**
+***Why we study graph (dots and lines)?***
 Graph is simple representation (abstraction) of reality.
 Graphs are tools to *solve problem*.
 
