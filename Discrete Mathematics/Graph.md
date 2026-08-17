@@ -80,9 +80,9 @@ Number of edges in **self complimentary** graph will be *n(n-1) / 4 *
 <img src="../Images/Pasted%20image%2020260812195211.png" width="476" alt="">
 
 **Good question:**
-![](../Pasted%20image%2020260816134029.png)
+![](../Images/Pasted%20image%2020260816134029.png)
 
-<img src="../Pasted%20image%2020260816135324.png" width="427" alt="">
+<img src="../Images/Pasted%20image%2020260816135324.png" width="427" alt="">
  
 #### Bipartite graph
 A graph is bipartite if and only if it doesn't have *odd cycle.*
@@ -119,7 +119,7 @@ Non planer graphs: K3, k5
 
 *Summation* of degree of faces = 2|E|
 
-<img src="../Pasted%20image%2020260817110849.png" width="469" alt="">
+<img src="../Images/Pasted%20image%2020260817110849.png" width="469" alt="">
 
 #### Euler's Formula for Planer graph
 Euler said that all planer representation of graphs will have *same number of faces.*
@@ -139,7 +139,7 @@ Euler said that all planer representation of graphs will have *same number of fa
 **Vertex colouring:** Adjacent vertices will have the different colours.
 **Chromatic number (X-chi):** Minimum number of colors needed to color graph G.
 
-<img src="../Pasted%20image%2020260817120320.png" width="640" alt="">
+<img src="../Images/Pasted%20image%2020260817120320.png" width="640" alt="">
 
 In **complete graph** can't use *re-use* any colour.
 X: **Kn** = n
@@ -177,6 +177,6 @@ For any simple graph, *X'(G) = d(G)* or *d(G) + 1.*
 
 	In general X'(G) >= d(G), since all edges on a max degree vertex must have different color
 
-<img src="../Pasted%20image%2020260817131743.png" width="458" alt="">
+![[Pasted image 20260817131743.png|458]]
 
-<img src="../Pasted%20image%2020260817133633.png" width="525" alt="">
+![[Pasted image 20260817133633.png|525]]
