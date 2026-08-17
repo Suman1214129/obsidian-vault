@@ -62,8 +62,7 @@ A **Regular graph** is a simple graph in which each vertices have same number of
 
 <img src="../Images/Pasted%20image%2020260812183236.png" width="420" alt="">
 
-Number of vertices in hypercube graph = $$2^n$$
-Number of degree in hypercube graph = **n**
+Number of vertices in hypercube graph = $$2^n$$Number of degree in hypercube graph = **n**
 Number of edges in hypercube graph = n * 2^n-1
 
 <img src="../Images/Pasted%20image%2020260812184944.png" width="429" alt="">
@@ -188,4 +187,8 @@ For any simple graph, *X'(G) = d(G)* or *d(G) + 1.*
 #### Graph realization problem: 
 Given a List of non-negative integers, determine if there exists a simple undirected graph whose *degree sequence is L.*
 
-***havel hakim's*** algorithm is there for simple graph graphic sequence check.
+***Havel-Hakimi*** is a graph theory method used to decide if a given sequence of numbers can form a *simple graph.*
+
+***Note:*** Maximum number of edges in planer graph: **3n - 6**
+
+	where each face have degree = 3, connected graph = 1
