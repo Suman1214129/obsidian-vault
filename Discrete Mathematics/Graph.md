@@ -34,13 +34,14 @@ Isolated degree: degree number is *zero*
 If we delete any vertices (b) from graph then
 Number of edges |E'| = |E| - Degree(b)
 
-<img src="../Images/Pasted%20image%2020260812171908.png" width="355" alt="">
+***An important result:*** In every undirected graph with |V| >= 2, At least 2 vertices have *same degree*.
+
+	It is impossible for every vertex of a graph to have a different degree.
 
 
-#### **Special type of simple graph:**
-
+#### Special type of simple graph:
 A **Regular graph** is a simple graph in which each vertices have same number of degrees
-<img src="../Images/Pasted%20image%2020260812180712.png" width="637" alt="">
+<img src="../Images/Pasted%20image%2020260812180712.png" width="614" alt="">
 
 **Number of edges** in complex graph:
  d = 2|E|
@@ -57,26 +58,29 @@ A **Regular graph** is a simple graph in which each vertices have same number of
 
 #### Hypercube Graph Q(n):
 **Vertices (V):** Set of all n-length binary strings.
-Edge
-<img src="../Images/Pasted%20image%2020260812182940.png" width="449" alt="">
+**Edges (E):** Two vertices are adjacent if and only if they differ in exactly one bit position.
 
-<img src="../Images/Pasted%20image%2020260812183236.png" width="449" alt="">
+<img src="../Images/Pasted%20image%2020260812183236.png" width="420" alt="">
 
 Number of vertices in hypercube graph = $$2^n$$
-Number of degree in hypercube graph = n
+Number of degree in hypercube graph = **n**
 Number of edges in hypercube graph = n * 2^n-1
 
 <img src="../Images/Pasted%20image%2020260812184944.png" width="429" alt="">
 
-<img src="../Images/Pasted%20image%2020260812185250.png" width="427" alt="">
 
-<img src="../Images/Pasted%20image%2020260812190006.png" width="463" alt="">
+***Note:***
+For any two graphs G,H:
+If some graph invariant property *mismatch* -> Not isomorphic
+If some graph invariant property *match* -> May or may not be isomorphic
 
+***Complement of graph*** is the jealous graph which doesn't like the currently edges and inverse them.
 
-**Complement of graph** is the jealous graph which doesn't like the currently edges and inverse them.
+#### Self complimentary graph:
+A self-complimentary graph is a graph G that is* isomorphic* to its complimentary graph.
 
-<img src="../Images/Pasted%20image%2020260812193000.png" width="446" alt="">
-<img src="../Images/Pasted%20image%2020260812193127.png" width="446" alt="">
+Graph G is self-complimentary graph if *G = G'*
+<img src="../Images/Pasted%20image%2020260812193127.png" width="358" alt="">
 
 
 Number of edges in **self complimentary** graph will be *n(n-1) / 4 *
@@ -85,11 +89,12 @@ Number of edges in **self complimentary** graph will be *n(n-1) / 4 *
 
 **Good question:**
 ![](../Images/Pasted%20image%2020260816134029.png)
+Answer: c
 
-<img src="../Images/Pasted%20image%2020260816135324.png" width="427" alt="">
- 
+
 #### Bipartite graph
 A graph is bipartite if and only if it doesn't have *odd cycle.*
+<img src="../Images/Pasted%20image%2020260816135324.png" width="393" alt="">
 
 In **complete bipartite graph**, every element of first part is adjacent to second part. *K(m,n)*
 
@@ -140,10 +145,9 @@ Euler said that all planer representation of graphs will have *same number of fa
 
 
 #### Graph colouring
-**Vertex colouring:** Adjacent vertices will have the different colours.
-**Chromatic number (X-chi):** Minimum number of colors needed to color graph G.
+**Vertex colouring:** Color the vertices of G in such a way that *no two adjacent vertices receive the same color*. A graph is k-colourable if it admits a vertex coloring with at most k colors.
 
-<img src="../Images/Pasted%20image%2020260817120320.png" width="640" alt="">
+***Chromatic number (X-chi):*** *Minimum* number of colours needed to colour graph G.
 
 In **complete graph** can't use *re-use* any colour.
 X: **Kn** = n
@@ -182,6 +186,6 @@ For any simple graph, *X'(G) = d(G)* or *d(G) + 1.*
 	In general X'(G) >= d(G), since all edges on a max degree vertex must have different color
 
 #### Graph realization problem: 
-<img src="../Pasted%20image%2020260817170836.png" width="519" alt="">
+Given a List of non-negative integers, determine if there exists a simple undirected graph whose *degree sequence is L.*
 
-havel hakim algorithm for simple graph
+***havel hakim's*** algorithm is there for simple graph graphic sequence check.
