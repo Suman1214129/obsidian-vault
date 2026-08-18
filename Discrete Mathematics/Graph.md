@@ -117,7 +117,7 @@ If there is tree of *n vertices* then it will have **(n-1) Edges.**
 #### Planer Graph:
 A graph is a planer graph if there is some way to draw it in 2-D plane without any of the *edges crossing.*
 
-Non planer graphs: K(3,3), k5
+Non planer graphs: *K(3,3), k5*
 
 **Faces** in planer graphs are which are surrounded by edges with one outer face.
 
@@ -134,9 +134,9 @@ Euler said that all planer representation of graphs will have *same number of fa
 
 ***Let G be a planer graph:***
 **C** = number of connected components
-**F** = Number of faces
-**E**= number of edges
-**C** = number of vertices
+**F** = number of faces
+**E** = number of edges
+**V** = number of vertices
 
 **Euler's formula:** V+F = E+C+1
 
@@ -180,7 +180,6 @@ Every adjacent edges have different colours.
 
 **Vizing's theorem**
 For any simple graph, *X'(G) = d(G)* or *d(G) + 1.*
-
 
 	In general X'(G) >= d(G), since all edges on a max degree vertex must have different color
 
