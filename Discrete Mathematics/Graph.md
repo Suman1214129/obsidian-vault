@@ -188,10 +188,14 @@ Given a List of non-negative integers, determine if there exists a simple undire
 
 ***Havel-Hakimi*** is a graph theory method used to decide if a given sequence of numbers can form a *simple graph.*
 
-***Note:*** Maximum number of edges in planer graph: **3n - 6**
+***Note:*** 
+-  Maximum number of edges in planer graph: **3n - 6**
 
-	where each face have degree = 3, connected graph = 1
+       where each face have degree = 3, connected graph = 1
 
-Every other non-planar graph must have more than *5 vertices* and more than *9 edges.*
+- Every other non-planar graph must have more than *5 vertices* and more than *9 edges.*
+- Maximum number of edges in undirected graph is  *(n-1)(n-2) / 2* (2 component).
+- Maximum number of edges in directed graph is  *n(n-1) / 2*.
+- Minimum number of edges require that it will guarantee it will connected *(n-1) C 2 + 1*.
 
 
