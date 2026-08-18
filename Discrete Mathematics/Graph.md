@@ -191,3 +191,7 @@ Given a List of non-negative integers, determine if there exists a simple undire
 ***Note:*** Maximum number of edges in planer graph: **3n - 6**
 
 	where each face have degree = 3, connected graph = 1
+
+Every other non-planar graph must have more than *5 vertices* and more than *9 edges.*
+
+
