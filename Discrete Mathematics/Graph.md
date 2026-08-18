@@ -197,5 +197,6 @@ Given a List of non-negative integers, determine if there exists a simple undire
 - Maximum number of edges in undirected graph is  *(n-1)(n-2) / 2* (2 component).
 - Maximum number of edges in directed graph is  *n(n-1) / 2*.
 - Minimum number of edges require that it will guarantee it will connected *(n-1) C 2 + 1*.
+- Minimum edges required for n vertices and k components graphs to be connected: *(n-k+1)(n-k) / 2*
 
 
