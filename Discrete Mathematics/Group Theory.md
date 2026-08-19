@@ -19,3 +19,7 @@ Set S; Operation # on elements of S:
 Set S is closed under # iff: *(a#b belongs to S)*
 
 **Binary operation:** On a nonempty set A is a mapping defined on AxA to A, denoted by *f:AxA -> A*
+
+***Associative Property:*** Parenthesis doesn't affect on addition and multiplication.
+
+***Commutative Property:*** Parenthesis doesn't affect on addition and multiplication.
