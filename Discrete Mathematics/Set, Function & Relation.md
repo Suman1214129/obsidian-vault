@@ -1,4 +1,4 @@
-#### **Set**
+#### Set
 A set is an unordered collection of distinct elements, which can be anything.
 
 **Representation Type:**
@@ -8,13 +8,13 @@ A set is an unordered collection of distinct elements, which can be anything.
 3. Set Builder Notation
 	*{ x | some property x satisfies }*
 
-**Subsets:**
+***Subsets:***
 A set a called a subset of set A if all elements of set a are also element of set A.
 
-**Power set:**
+***Power set:***
 The *power set* of a set is <mark>the set of all its possible subsets, including the empty set and the set itself</mark>.
 
-**ex:** the power set of a set with three elements: A = {1, 2, 3}: 
+**Ex:** the power set of a set with three elements: A = {1, 2, 3}: 
 P(A) = {emptyset ,{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}} 
 
 Cardinality of power set: |P(A)| =  $2^n$
@@ -29,7 +29,7 @@ If a we have two set A, B then the cartesian product will be
 A x B = {*(a,b)* | a belongs to A, b belongs to B}
 
 
-#### **Function**
+#### Function
 Function from Set A to Set B is a structure which *maps every element of A* (individually) to *exactly one element of B.*
 
 If f is function from A to B then:
@@ -46,15 +46,15 @@ function f: A -> B
 *Image (Domain) = Range;*
 
 **Types of Function:**
-- **Injective Function (one-one function):** Every element in domain must maps with distinct images in co-domain.
-- **Injective Function (onto function):** No element of co-domain should left unmapped. 
+- ***Injective Function (one-one function):*** Every element in domain must maps with distinct images in co-domain.
+- ***Injective Function (onto function):*** No element of co-domain should left unmapped. 
 	*(Range = co-domain)*
-- **Bijective function:** Function is Injective & Subjection. / every element of co-domain has exactly one pre-image.
+- ***Bijective function:*** Function is Injective & Subjection. / every element of co-domain has exactly one pre-image.
 
 NOTE: 
 	if function *f: M -> N* then number of function will be: *N^M*
 
-**Inverse of function:** It must be Bijective function.
+***Inverse of function:*** It must be Bijective function.
 
 
 NOTE:
@@ -62,10 +62,10 @@ NOTE:
 	function is one-one or onto the it will *always bijective function*
 
 
-#### **Relation**
+#### Relation
 Relation is how the element of set A is related to element of set B.
 
-**Poperties of relation:**
+**Properties of relation:**
 1. Reflexive relation: every element is related to itself *(aRa).*
 2. Symmetric relation: *aRb -> bRa* 
 3. Transitive relation: *aRb ^ bRc -> aRc.*
@@ -77,14 +77,13 @@ The fundamental theorem of equivalence relation:
 	Let R be the equivalence relation over set A, Every element a of A belongs to exactly one equivalance class of relation R.
 
 
-
 NOTE:
 
 	If relation R on set S, if R is symmetric & transitive then
 	for all x (xRx (+) for all y (xR'y)
 	
 means then R can be either reflexive or not related element but not both.
-.
+
 
 ***Q. How many binary relation will be there on set A with n elements?***
 $$2^{n^2}$$
@@ -103,7 +102,7 @@ NOTE:
 To define the following relations on a set S, *elements of S must be Sets*
 
 
-**POSET:** A POSET (short for *partially ordered set*) is <mark>a mathematical structure consisting of a set and a binary relation that defines a specific order or hierarchy</mark>.
+****POSET:*** A POSET (short for *partially ordered set*) is <mark>a mathematical structure consisting of a set and a binary relation that defines a specific order or hierarchy</mark>.
 
 It should satisfy three conditions: 
 1. Reflexive 
