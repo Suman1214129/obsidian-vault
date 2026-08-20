@@ -37,7 +37,7 @@ If f is function from A to B then:
 - we call B the *co-domain* of f.
 
 function f: A -> B
-**range (f)** =  {y |  y belongs to B; y has at least one pre image}
+***Range (f)*** =  {y |  y belongs to B; y has at least one pre image}
 
 **Rules for function requirement:**
 - No element of domain should be left unmapped.

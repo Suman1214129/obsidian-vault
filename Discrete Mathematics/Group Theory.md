@@ -18,7 +18,7 @@ Closure, Associative, Identity, Inverse, Commutative property
 Set S; Operation # on elements of S:
 Set S is closed under # iff: *(a#b belongs to S)*
 
-**Binary operation:** On a nonempty set A is a mapping defined on AxA to A, denoted by *f:AxA -> A*
+**Binary operation:** On a non-empty set A is a mapping defined on AxA to A, denoted by *f:AxA -> A*
 
 ***Associative Property:*** Parenthesis doesn't affect on operations.
 *(ab)c = a(bc)*
@@ -31,3 +31,7 @@ Set S is closed under # iff: *(a#b belongs to S)*
 	there can't be two identity element, e*x = x = x*e
 
 ***Inverse property:*** *a.b = b.a = e*
+
+
+#### Cayley Table
+
