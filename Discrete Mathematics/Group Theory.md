@@ -21,7 +21,11 @@ Set S is closed under # iff: *(a#b belongs to S)*
 **Binary operation:** On a nonempty set A is a mapping defined on AxA to A, denoted by *f:AxA -> A*
 
 ***Associative Property:*** Parenthesis doesn't affect on operations.
+*(ab)c = a(bc)*
 
 ***Commutative Property:*** Order doesn't matter between element.
+*a+b = b+a*
 
-***Identity Property:*** A fixed element which doesn't affect the operation/
+***Identity Property:*** A fixed element which doesn't affect the operation.
+
+	there can't be *two* identity element
