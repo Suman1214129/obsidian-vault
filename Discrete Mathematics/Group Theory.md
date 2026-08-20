@@ -28,4 +28,6 @@ Set S is closed under # iff: *(a#b belongs to S)*
 
 ***Identity Property:*** A fixed element which doesn't affect the operation.
 
-	there can't be *two* identity element
+	there can't be two identity element, e*x = x = x*e
+
+***Inverse property:*** *a.b = b.a = e*
