@@ -41,6 +41,7 @@ Number of edges |E'| = |E| - Degree(b)
 
 #### Special type of simple graph:
 A **Regular graph** is a simple graph in which each vertices have same number of degrees
+
 <img src="../Images/Pasted%20image%2020260812180712.png" width="614" alt="">
 
 **Number of edges** in complex graph:
