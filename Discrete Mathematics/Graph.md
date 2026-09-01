@@ -167,10 +167,10 @@ And these graphs are *2 colourable.*
 
 	At stage k: look at v(k), and colour it the smallest colour in N not yet used on any of v(k)'s neighbors.
 
-Chromatic number in greedy algorithm: *<=K*
+Chromatic number in greedy algorithm: *>=K*
 
 **Theorem (Four-colour Theorem):**  Every planar graph is 4-colourable.
-............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+
 ***Guidelines to find Chromatic number:***
 1. A graph G is Bipartite if and only if *X(G) <= 2*
 2. If graph G does not have any odd length cycle then G is Bipartite, So *X(G) <=2*
@@ -195,9 +195,9 @@ Given a List of non-negative integers, determine if there exists a simple undire
        where each face have degree = 3, connected graph = 1
 
 - Every other non-planar graph must have more than *5 vertices* and more than *9 edges.*
-- Maximum number of edges in undirected graph is  *(n-1)(n-2) / 2* (2 component).
+- Maximum number of edges in undirected graph is  *(n-1)(n-2) / 2* **(2 component).**
 - Maximum number of edges in directed graph is  *n(n-1) / 2*.
-- Minimum number of edges require that it will guarantee it will connected *(n-1) C 2 + 1*.
+- Minimum number of edges require that it will guarantee it will connected *(n-1) C 2 + 1*. 
 - Minimum edges required for n vertices and k components graphs to be connected: *(n-k+1)(n-k) / 2*
 
 
