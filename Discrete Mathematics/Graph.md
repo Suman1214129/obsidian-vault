@@ -145,7 +145,7 @@ Euler said that all planer representation of graphs will have *same number of fa
 
 
 #### Graph colouring
-**Vertex colouring:** Color the vertices of G in such a way that *no two adjacent vertices receive the same colour*. A graph is k-colourable if it admits a vertex colouring with at most k colours.
+**Vertex colouring:** Colour the vertices of G in such a way that *no two adjacent vertices receive the same colour*. A graph is k-colourable if it admits a vertex colouring with at most k colours.
 
 ***Chromatic number (X-chi):*** *Minimum* number of colours needed to colour graph G.
 
