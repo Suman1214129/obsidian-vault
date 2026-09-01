@@ -145,7 +145,7 @@ Euler said that all planer representation of graphs will have *same number of fa
 
 
 #### Graph colouring
-**Vertex colouring:** Color the vertices of G in such a way that *no two adjacent vertices receive the same color*. A graph is k-colourable if it admits a vertex coloring with at most k colors.
+**Vertex colouring:** Color the vertices of G in such a way that *no two adjacent vertices receive the same colour*. A graph is k-colourable if it admits a vertex colouring with at most k colours.
 
 ***Chromatic number (X-chi):*** *Minimum* number of colours needed to colour graph G.
 
@@ -170,7 +170,7 @@ And these graphs are *2 colourable.*
 Chromatic number in greedy algorithm: *<=K*
 
 **Theorem (Four-colour Theorem):**  Every planar graph is 4-colourable.
-
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ***Guidelines to find Chromatic number:***
 1. A graph G is Bipartite if and only if *X(G) <= 2*
 2. If graph G does not have any odd length cycle then G is Bipartite, So *X(G) <=2*
