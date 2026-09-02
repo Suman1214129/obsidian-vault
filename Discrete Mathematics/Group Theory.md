@@ -37,3 +37,10 @@ Set S is closed under # iff: *(a#b belongs to S)*
 #### Cayley Table
 
 	In cayley table if there is any identity element then result will same as it row and column header.
+
+
+#### Matrix
+for Squire non -  singular matrix:
+- Their result of determinant will not zero.
+- They have inverse matrix
+- 
