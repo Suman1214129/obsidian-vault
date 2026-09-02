@@ -14,7 +14,6 @@ Graphs are tools to *solve problem*.
 
 **Degree of a vertex:** 
 The degree of a vertex in a undirected graph is number of edges incident with it.
-
 Isolated degree: degree number is *zero*
 
 **Order of graph:** number of vertex:  |  |
@@ -42,7 +41,7 @@ Number of edges |E'| = |E| - Degree(b)
 #### Special type of simple graph:
 A **Regular graph** is a simple graph in which each vertices have same number of degrees
 
-<img src="../Images/Pasted%20image%2020260812180712.png" width="614" alt="">
+<img src="../Images/Pasted%20image%2020260812180712.png" width="583" alt="">
 
 **Number of edges** in complex graph:
  d = 2|E|
@@ -64,7 +63,7 @@ A **Regular graph** is a simple graph in which each vertices have same number of
 <img src="../Images/Pasted%20image%2020260812183236.png" width="420" alt="">
 
 Number of vertices in hypercube graph = $$2^n$$Number of degree in hypercube graph = **n**
-Number of edges in hypercube graph = n * 2^n-1
+Number of edges in hypercube graph = ** n * 2^n-1**
 
 <img src="../Images/Pasted%20image%2020260812184944.png" width="429" alt="">
 
@@ -76,7 +75,7 @@ If some graph invariant property *match* -> May or may not be isomorphic
 
 ***Complement of graph*** is the jealous graph which doesn't like the currently edges and inverse them.
 
-#### Self complimentary graph:
+### Self complimentary graph:
 A self-complimentary graph is a graph G that is* isomorphic* to its complimentary graph.
 
 Graph G is self-complimentary graph if *G = G'*
@@ -105,7 +104,7 @@ In **Star bipartite graph**, first part has one element and second part has n el
 ***NOTE:*** We create parts like even parity and odd parity for *hypercube bipartite.*
 
 
-#### Cyclic & Acyclic graphs
+### Cyclic & Acyclic graphs
 **Cyclic graph** which consists at least one cycle and similarly **acyclic** doesn't consist any graph.
 
 **Trees** are connected acyclic graphs. *(connected forest)*.
@@ -144,7 +143,7 @@ Euler said that all planer representation of graphs will have *same number of fa
 	If the graph isn't in planer reprsenation then we don't have to make it planer instead we can use euler's formula.
 
 
-#### Graph colouring
+## Graph colouring
 **Vertex colouring:** Colour the vertices of G in such a way that *no two adjacent vertices receive the same colour*. A graph is k-colourable if it admits a vertex colouring with at most k colours.
 
 ***Chromatic number (X-chi):*** *Minimum* number of colours needed to colour graph G.
@@ -184,7 +183,7 @@ For any simple graph, *X'(G) = d(G)* or *d(G) + 1.*
 
 	In general X'(G) >= d(G), since all edges on a max degree vertex must have different color
 
-#### Graph realization problem: 
+### Graph realization problem: 
 Given a List of non-negative integers, determine if there exists a simple undirected graph whose *degree sequence is L.*
 
 ***Havel-Hakimi*** is a graph theory method used to decide if a given sequence of numbers can form a *simple graph.*

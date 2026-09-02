@@ -1,4 +1,4 @@
-#### Set
+## Set
 A set is an unordered collection of distinct elements, which can be anything.
 
 **Representation Type:**
@@ -28,8 +28,8 @@ AB = A intersection B
 If a we have two set A, B then the cartesian product will be
 A x B = {*(a,b)* | a belongs to A, b belongs to B}
 
-
-#### Function
+---
+## Function
 Function from Set A to Set B is a structure which *maps every element of A* (individually) to *exactly one element of B.*
 
 If f is function from A to B then:
@@ -61,8 +61,8 @@ NOTE:
 	If there function F: x->y and |x| = |Y| then
 	function is one-one or onto the it will *always bijective function*
 
-
-### Relation
+---
+## Relation
 Relation is how the element of set A is related to element of set B.
 
 **Properties of relation:**
@@ -101,6 +101,7 @@ To find number of equivalence relation in set then *find number of partition way
 NOTE:
 To define the following relations on a set S, *elements of S must be Sets*
 
+---
 
 ****POSET:*** A POSET (short for *partially ordered set*) is <mark>a mathematical structure consisting of a set and a binary relation that defines a specific order or hierarchy</mark>.
 
@@ -135,16 +136,16 @@ In any *POSET* these all elements be either unique or they will not exist:
 3. GLB(s) also V & Intersection
 4. LUB(s) also ^ & Union
 
-
-### **Lattice:** 
+---
+## **Lattice:** 
 In lattice POSET every two incomparable elements have GLB and LUB.
 
-NOTE: Idempotent, Commutative, Associative and Absorption Law property always satisfy in lattice
+**NOTE:** Idempotent, Commutative, Associative and Absorption Law property always satisfy in lattice
 
 <img src="../Images/Pasted%20image%2020260718134854.png" width="548" alt="">
 
 
-Types of lattice:
+### Types of lattice:
 **1. Bounded lattice:** The lattice which have greatest and least element.
 
 **2. Complementary lattice:** A lattice in which every element has at least one compliment.
@@ -163,7 +164,8 @@ if lattice is distributive the it has at-most one compliment (one way theorem)
 **4. Boolean lattice:**
 Boolean lattice is which includes all previous three properties i.e: bounded, complementary and distributed lattice is called boolean lattice.
 
-**boolean algebra:** It follows structure:  $$2^n$$**Total order relation:** 
+**boolean algebra:** It follows structure:  $$2^n$$
+**Total order relation:** 
 Partial order set & every two elements are comparable. 
 Every total order set is distributive.
 

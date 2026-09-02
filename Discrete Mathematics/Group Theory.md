@@ -8,8 +8,8 @@ A non empty set + one or more closed operations.
 4. **Group** (Closure + Associative + Identity + Inverse property)
 5. **Abelian Group** (Group + Commutative property)
 
-#### Group Theory
-Group theiry studies the algebraic structures known as groups.
+# Group Theory
+Group their studies the algebraic structures known as groups.
 
 ***The 5 properties***
 Closure, Associative, Identity, Inverse, Commutative property
@@ -18,7 +18,8 @@ Closure, Associative, Identity, Inverse, Commutative property
 Set S; Operation # on elements of S:
 Set S is closed under # iff: *(a#b belongs to S)*
 
-**Binary operation:** On a non-empty set A is a mapping defined on AxA to A, denoted by *f:AxA -> A*
+**Binary operation:** On a non-empty set A is a mapping defined on AxA to A, denoted by 
+*f:AxA -> A*
 
 ***Associative Property:*** Parenthesis doesn't affect on operations.
 *(ab)c = a(bc)*

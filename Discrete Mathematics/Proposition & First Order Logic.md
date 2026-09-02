@@ -1,11 +1,11 @@
 
-# Proposition Logic:
+## Proposition Logic:
 - **Proposition:** Proposition is a declarative statement that can be either *true* or *false* but not both.
 - **Proposition Variable**: It is a variable which represent the proposition.
 
 		Note: In proposition Logic, we do not care about proposition but proposition variable
 
-#### **Logical Connectives:**
+### Logical Connectives:
 -  **NOT:** *Make any any statement FALSE.*
 - **AND (^):** *When both statement true.* (conjuction)
 - **OR (v, +):** *At least one of them are true.* (disconjuction)
@@ -30,7 +30,7 @@
 		P -> Q =  P' + Q
 
 
-#### **Bi-implication/ Bi-Conditional Statement:**
+#### Bi-implication/ Bi-Conditional Statement:
 ***(P <-> Q) :***  *If P = Q*  (If P happens then Q will must happen & if P not happens then Q also must not).
 
 (P<->Q)' = P XOR R  (exactly one of them are true)
@@ -41,7 +41,7 @@
 | F   | T   | T    | F    | F     |
 | T   | F   | F    | T    | F     |
 | T   | T   | T    | T    | T     |
-<img src="../Images/Pasted%20image%2020260619155850.png" width="241" alt="">
+<img src="../Images/Pasted%20image%2020260619155850.png" width="252" alt="">
 
 
 	P -> Q: P` + Q
@@ -86,26 +86,27 @@ Their Bi-conditional will be *tautology*.
 
 <img src="../Images/Pasted%20image%2020260623161211.png" width="386" alt="">
 
-***Practice:*** <img src="../Images/Pasted%20image%2020260622232519.png" width="587" alt="">
+***Practice:***
+ <img src="../Images/Pasted%20image%2020260622232519.png" width="556" alt="">
 
 
 ***Note:***  *Implies (->) is not Associative.*
 
 
+---
 
-# First Order Logic
+## First Order Logic
 
 In first-order logic, each variable refers to some object in a set called the domain of discourse.
 
 	First-Order Logic speaks about objects, which are the domain of discourse or the universe.
 
 
-#### **Predicate**
+### **Predicate**
 A logical expression containing some variable that becomes a proposition when we substitute any particular value from the universe for this variable is called a predicate.
 - *It is also called propositional function.*
 
-
-#### **Quantifier**
+### **Quantifier**
 Quantification words in English:  few, all, many, some, any 
 Quantification word in logic:  All = Every, Some= at least one
 
