@@ -57,7 +57,7 @@ A **Regular graph** is a simple graph in which each vertices have same number of
 *Number of edge = n*
 
 
-#### Hypercube Graph Q(n):
+### Hypercube Graph Q(n):
 **Vertices (V):** Set of all n-length binary strings.
 **Edges (E):** Two vertices are adjacent if and only if they differ in exactly one bit position.
 
@@ -92,7 +92,7 @@ Number of edges in **self complimentary** graph will be *n(n-1) / 4 *
 Answer: c
 
 
-#### Bipartite graph
+### Bipartite graph
 A graph is bipartite if and only if it doesn't have *odd cycle.*
 <img src="../Images/Pasted%20image%2020260816135324.png" width="393" alt="">
 
@@ -115,7 +115,7 @@ If there is tree of *n vertices* then it will have **(n-1) Edges.**
 	A graph with n vertices and m edges at least **n-m** connected components.
 
 
-#### Planer Graph:
+### Planer Graph:
 A graph is a planer graph if there is some way to draw it in 2-D plane without any of the *edges crossing.*
 
 Non planer graphs: *K(3,3), k5*
@@ -130,7 +130,7 @@ Non planer graphs: *K(3,3), k5*
 
 <img src="../Images/Pasted%20image%2020260817110849.png" width="469" alt="">
 
-#### Euler's Formula for Planer graph
+### Euler's Formula for Planer graph
 Euler said that all planer representation of graphs will have *same number of faces.*
 
 ***Let G be a planer graph:***

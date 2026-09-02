@@ -52,7 +52,7 @@ function f: A -> B
 - ***Bijective function:*** Function is Injective & Subjection. / every element of co-domain has exactly one pre-image.
 
 NOTE: 
-	if function *f: M -> N* then number of function will be: *N^M*
+	if function *f: M -> N*  then number of function will be: *N^M*
 
 ***Inverse of function:*** It must be Bijective function.
 
@@ -62,7 +62,7 @@ NOTE:
 	function is one-one or onto the it will *always bijective function*
 
 
-#### Relation
+### Relation
 Relation is how the element of set A is related to element of set B.
 
 **Properties of relation:**

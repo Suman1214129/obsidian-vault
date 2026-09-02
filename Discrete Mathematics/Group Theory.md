@@ -1,7 +1,7 @@
 ### Algebraic structure
 A non empty set + one or more closed operations.
 
-***Algebraic structures with single binary operation:
+***Algebraic structures with single binary operation:***
 1. **Magma/Groupoid** (Closure Property)
 2. **Semi-Group** (Closure + Associative Property)
 3. **Monoid** (Closure + Associative + Identity property)
