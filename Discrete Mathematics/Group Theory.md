@@ -40,7 +40,7 @@ Set S is closed under # iff: *(a#b belongs to S)*
 
 
 #### Matrix
-for Squire non -  singular matrix:
+***For Square non -  singular matrix:***
+- They are non singular only if they are invertible.
 - Their result of determinant will not zero.
-- They have inverse matrix
-- 
+- They have inverse matrix.

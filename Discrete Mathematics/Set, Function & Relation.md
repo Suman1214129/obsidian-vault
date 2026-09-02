@@ -21,7 +21,7 @@ Cardinality of power set: |P(A)| =  $2^n$
 
 
 **Important derived solution:**
-A - B = A (~B)
+A - B = A B'
 AB = A intersection B
 
 **Cartesian Product:**
