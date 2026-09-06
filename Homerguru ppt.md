@@ -312,46 +312,27 @@ Pause.
 ## Building the Future of AI + Human Tutoring
 
 ---
+# DESIGN DIRECTION:
 
-# DESIGN DIRECTION
+Look & Feel:
+Apple × OpenAI × premium VC pitch deck
 
-## Aur bhai — designer ko ye exact direction dena:
-
-### Look & Feel:
-
-**Apple × OpenAI × premium VC pitch deck**
-
-- Dark/black base with HomeGuru orange/blue accents
-    
-- Huge typography
-    
-- Very few words
-    
-- Lots of negative space
-    
-- Real human learning photography mixed with subtle futuristic graphics
-    
-- No cartoon students
-    
-- No cheesy AI robots
-    
-- No stock-photo classroom bullshit
-    
-- No 5 different fonts
-    
-- No unnecessary icons everywhere
-    
-- Numbers should feel massive
-    
-- Slide 6 competition = beautiful 2×2 strategic map
-    
-- Slide 7 future = hero visual
-    
-- Slide 10 = cinematic closing
-    
+HomeGuru orange(#e97731), blue(#1d2f5f)  accents
+Huge typography
+Very few words
+Lots of negative space
+Real human learning photography mixed with subtle futuristic graphics
+No cartoon students
+No cheesy AI robots
+No stock-photo classroom bullshit
+No 5 different fonts
+No unnecessary icons everywhere
+Numbers should feel massive
+Slide 6 competition = beautiful 2×2 strategic map
+Slide 7 future = hero visual
+Slide 10 = cinematic closing
 
 ---
-
 ## Aur sabse important:
 
 Deck ka tone “hum tutor marketplace hain” wala ZERO hona chahiye.
