@@ -87,7 +87,7 @@ Number of edges in **self complimentary** graph will be *n(n-1) / 4 *
 <img src="../Images/Pasted%20image%2020260812195211.png" width="476" alt="">
 
 **Good question:**
-![](../Images/Pasted%20image%2020260816134029.png)
+<img src="../Images/Pasted%20image%2020260816134029.png" width="672" alt="">
 Answer: c
 
 
@@ -113,7 +113,6 @@ If there is tree of *n vertices* then it will have **(n-1) Edges.**
 
 	A graph with n vertices and m edges at least **n-m** connected components.
 
-
 ### Planer Graph:
 A graph is a planer graph if there is some way to draw it in 2-D plane without any of the *edges crossing.*
 
@@ -127,7 +126,7 @@ Non planer graphs: *K(3,3), k5*
 
 *Summation* of degree of faces = 2|E|
 
-<img src="../Images/Pasted%20image%2020260817110849.png" width="469" alt="">
+<img src="../Images/Pasted%20image%2020260817110849.png" width="427" alt="">
 
 ### Euler's Formula for Planer graph
 Euler said that all planer representation of graphs will have *same number of faces.*
