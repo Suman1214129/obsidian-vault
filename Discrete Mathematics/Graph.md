@@ -37,7 +37,6 @@ Number of edges |E'| = |E| - Degree(b)
 
 	It is impossible for every vertex of a graph to have a different degree.
 
-
 #### Special type of simple graph:
 A **Regular graph** is a simple graph in which each vertices have same number of degrees
 
